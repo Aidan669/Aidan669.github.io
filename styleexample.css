@@ -1,0 +1,42 @@
+body, html{
+	min-height:100%; 
+	padding:0; 
+	margin:0;
+}
+
+#header{
+	position:absolute; 
+	top:10px;
+	
+	width:100%;
+	height:100px; 
+	
+	color:white;
+	text-align:center;
+	background-color:red;
+}
+
+#content{
+	position:absolute; 
+	top:100px;
+
+	width:100%;
+	height:700px; 
+	
+	color:white;
+	background-color:green;
+}
+
+
+#footer{ 
+	position:absolute; 
+	top:800px;
+
+	width:100%;
+	height:100px; 
+	
+	color:white;
+	background-color:blue;
+}
+
+
