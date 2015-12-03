@@ -26,7 +26,8 @@ for(count=0; count <5; count+=1){
 }
 
 var left = 10;
-var right = 5;
+var thub\
+right = 5;
 
 
 if(left == right){
