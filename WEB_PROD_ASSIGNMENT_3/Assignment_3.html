@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="Assignment_3.css" rel="stylesheet" type="text/css"/>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+<script type="text/javascript" src="Assignment_3.js"></script>
+<body>
+  <div id="header">
+  <header>
+    <h1>Word Calculator</h1>
+  </header>
+</div>
+<div id="wrapper">
+<h5>Enter the numbers you want to caclulate, but in word form!</h5>
+
+  <form name="userInput">
+    <label for="numOne">Word 1</label>
+<input type="text" name="numOne" id="numOne" value=""/>
+<label for="numTwo">Word 2</label>
+<input type="text" name="numTwo" id="numTwo" value=""/>
+<br>
+<button type="button" onclick="add()">+</button>
+<button type="button" onclick="subtract()">-</button>
+<button type="button" onclick="divide()">/</button>
+<button type="button" onclick="multiply()">*</button>
+</form>
+<p id="result">Answer</p>
+</div>
+</body>
+</html>
