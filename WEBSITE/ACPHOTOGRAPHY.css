@@ -13,6 +13,7 @@ body{
 
 
 
+
 .fontcolors{
   color:#6DFFCD;
   text-align: center;
@@ -22,4 +23,25 @@ body{
 nav{
   font-size: 19px;
   word-spacing: 300px;
+}
+
+
+.box{
+  margin-top:-290px;
+margin-right:60%;
+margin-bottom:20px;
+margin-left:10%;
+
+}
+
+
+.cantina{
+width: 500px;
+margin-left: 40%;
+margin-top: 100px
+
+}
+
+.position{
+  margin-top: 250px;
 }
