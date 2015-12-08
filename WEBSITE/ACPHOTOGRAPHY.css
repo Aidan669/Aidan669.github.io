@@ -1,0 +1,25 @@
+body{
+  background-color: #0A4A0F;
+}
+
+#wrapper{
+   width:1300px;
+   	margin:0 auto;
+   	background-color:#3F9346;
+ }
+#header{
+  height: 70px;
+}
+
+
+
+.fontcolors{
+  color:#6DFFCD;
+  text-align: center;
+
+ }
+
+nav{
+  font-size: 19px;
+  word-spacing: 300px;
+}
