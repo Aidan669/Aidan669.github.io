@@ -3,7 +3,7 @@ body{
 }
 
 #wrapper{
-   width:1300px;
+   width:1260px;
    	margin:0 auto;
    	background-color:#3F9346;
  }
@@ -44,4 +44,28 @@ margin-top: 100px
 
 .position{
   margin-top: 250px;
+}
+
+
+
+
+#one{
+  width: 400px;
+  height: 235px;
+  margin-top:20px;
+  margin-left:14px;
+  margin-right:;
+  position: center;
+
+}
+
+#bottom{
+	text-align:center;
+	height:50px;
+	clear:both;
+
+}
+
+#content{
+margin-top: 1200;
 }
