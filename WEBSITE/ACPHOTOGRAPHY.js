@@ -1,23 +1,4 @@
 
-
-
-
-//date//
-var todayDate = new Date();
-var month = todayDate.getMonth();
-var year = todayDate.getFullYear();
-var date = todayDate.getDate();
-
-
-document.write("<br />" + month + "/" + date + "/" + year);
-
-function addWords(thedate){
-    var words = document.getElementById().value;
-	document.write(words);
-}
-//end date//
-
-
 //clock//
 function Time()
 {
