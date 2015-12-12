@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <link rel="stylesheet" type="text/css" href="ACPHOTOGRAPHY.css"/>
+  <script type="text/javascript" src="ACPHOTOGRAPHY.js"></script>
+  <link rel="stylesheet" type="text/css" href="unslider.css"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="description" content="ACPHOTOGRAPHY"/>
   <meta name="keywords" content="ACPHOTOGRAPHY"/>
@@ -11,11 +13,12 @@
 
 </head>
 
-<body>
-
+<body onload="Time()">
 
     <div id="wrapper">
-      <div class="fontcolors" id="header"> <h2>Aidan Crawley Photography</h2>
+      <div class="time" id="clock"></div>
+        <div class="fontcolors" id="header"> <h2>Aidan Crawley Photography</h2>
+
 
 <nav>
   <a class="fontcolors" href="ACPHOTOGRAPHY.html">Home</a>
@@ -25,12 +28,46 @@
 </nav>
 </div>
 </div>
+<div id="demos">
+  <div class="demo">
+    <div class="my-slider">
+      <ul>
+        <li><img src="DSC_4387.JPG" /></li>
+        <li><img src="DSC_4559.jpg" /></li>
+        <li><img src="DSC_4365.JPG" /></li>
+        <li><img src="DSC_4865.jpg" /></li>
+        <li><img src="Josh at joyride .jpg" /></li>
+        <li><img src="DSC_5209.JPG" /></li>
+        <li><img src="DSC_5211.JPG" /></li>
+        <li><img src="DSC_5235.JPG" /></li>
+        <li><img src="DSC_8521.JPG" /></li>
+        <li><img src="DSC_5926.JPG" /></li>
+        <li><img src="DSC_6817.JPG" /></li>
+        <li><img src="DSC_7967.JPG" /></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="unslider-min.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+    $('.my-slider').unslider({
+      autoplay:true,
+      arrows:false
+
+    });
+  });
+</script>
+
+
 
 
 
 <div id="bottom">
   <div class="copyright" id="content">
-    <h5>2015 Aidan Crawley Photography</h5>
+      <h6>Copyright2015 Aidan Crawley Photography</h6>
   </div>
 </div>
 
