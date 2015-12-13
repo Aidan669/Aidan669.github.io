@@ -4,14 +4,15 @@ body{
 
 #wrapper{
    width:100%;
-   	margin:0 auto;
+   	margin:auto;
     margin-top: -10px;
    	background-color:#3F9346;
     min-height: 70px;
  }
-#header{
-  height: 70px;
-  float: center;
+.header{
+    padding-left: 280px;
+
+
 }
 
 .time{
@@ -35,6 +36,15 @@ padding-left: 200px;
   height: 19px
 
  }
+
+#insta{
+width: 20px;
+height: 20px;
+float: right;
+padding-right: 20%;
+padding-top: 6px;
+}
+
 
 nav{
   font-size: 19px;
@@ -66,12 +76,14 @@ margin-top: 100px
 
 
 .photo{
-  width: 400px;
-  height: 235px;
+  width: 395px;
+  height: 240px;
   margin-top:20px;
   margin-left:14px;
   margin-right:;
   position: center;
+  border: outset;
+  border-color: white;
 
 }
 
