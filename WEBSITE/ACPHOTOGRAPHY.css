@@ -1,24 +1,24 @@
 body{
-  background-color: #0A4A0F;
+  background-color: #343536;
 }
 
 #wrapper{
    width:100%;
    	margin:auto;
     margin-top: -10px;
-   	background-color:#3F9346;
-    min-height: 70px;
- }
+   	background-color:#585D82;
+    min-height: 75px;
+
+}
 .header{
     padding-left: 280px;
-
-
+    font-style: sans-serif;
 }
 
 .time{
   margin-bottom: -40px;
   margin-left: 40px;
-  color: #6DFFCD;
+  color: #C0E0DE  ;
 
 }
 
@@ -31,9 +31,12 @@ padding-left: 200px;
 
 
 .fontcolors{
-  color:#6DFFCD;
+  color:#C0E0DE;
   text-align: center;
-  height: 19px
+  height: 19px;
+  font-family: century,sans-serif;
+
+
 
  }
 
@@ -49,11 +52,12 @@ padding-top: 6px;
 nav{
   font-size: 19px;
   word-spacing: 300px;
+
 }
 
 
 .box{
-  margin-top:-290px;
+  margin-top:-390px;
 margin-right:60%;
 margin-bottom:20px;
 margin-left:10%;
@@ -82,13 +86,10 @@ margin-top: 100px
   margin-left:14px;
   margin-right:;
   position: center;
-  border: outset;
-  border-color: white;
+  border: double;
+  border-color: black;
 
 }
-
-
-
 
 
  #contact{
@@ -109,5 +110,11 @@ padding-top: 200px;
  	height:70px;
    position:relative;
    top: 100px;
+   color: #C0E0DE;
 
+}
+
+.cantina{
+  border: double;
+  color:black;
 }
